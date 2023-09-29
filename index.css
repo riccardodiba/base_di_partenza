@@ -1,0 +1,135 @@
+#hero {
+    position: absolute;
+        height: 300px;
+        display: flex;
+        right: 0;
+    }
+.conteiner {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffc017;
+    padding: 1.3em;
+    padding-bottom: 1.3em;
+    position: sticky;
+    z-index: 100;
+    top:0;
+    border-bottom: 1px solid black;
+
+}
+nav {
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+transition: background-color 1s ease-in-out;
+
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 0.5;
+    color: black;
+
+}
+nav button{
+    color: white;
+    background-color: black;
+    border-radius: 2em;
+    padding: 9px;
+    transition: background-color 1s ease-in-out;
+}
+nav:hover {
+    background-color: white;
+}
+
+.navbar button:hover {
+    background-color: green;
+}
+.logo{
+    display: flex;
+    flex-grow: 1;
+    justify-content: start;
+}
+aside {
+        height: 400px;
+            background-color: #ffc017;
+}
+aside h1 {
+    font-size: 100px;
+    padding: 50px;
+
+}
+aside p {
+        font-size: 1.4em;
+            padding: 50px;
+            padding-top: 0;
+}
+aside button {
+    color: white;
+        background-color: black;
+        border-radius: 2em;
+        padding: 9px;
+            margin-left: 50px;
+                    width: 200px;
+                    height: 40px;
+                    padding: 10px;
+                    text-align: center;
+                
+}
+.article {
+        display: flex;
+            flex-wrap: nowrap;
+            width: 30%;
+            align-items: center;
+            flex-direction: column;
+        }
+        .muro{
+            display: flex;
+                flex-direction: column;
+                    flex-wrap: wrap;
+            }
+    
+        
+        .blocco{
+            
+            display: flex;
+                flex-direction: column;
+                    flex-wrap: wrap;
+            }
+        
+        #img {
+            border-radius: 20px;
+        }
+main {  
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.main {
+        width: 30%;
+        padding: 50px;
+        
+        }
+
+
+#img1{
+    border-radius: 20px;
+}
+.main p {
+    color: grey;
+}
+.main p h1 {
+    color: black;
+}
+#book {
+    float: right;
+}
+.img2 {
+        width: 50%;
+}
